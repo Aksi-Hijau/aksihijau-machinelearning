@@ -1,8 +1,16 @@
-# Machine Learning Path - Classification Soil Type 
+## 👥 Aksi Hijau - Capstone Project Bangkit 2023
+Group = C23-PS329 
 
-Team ID : C23-PS329
-M160DSX0257 - Irfan Divi Zianka
-M282DSY0240 - Vina Maulida Junia
+Member =
+- (ML) M160DSX0257 –  Irfan Divi Zianka 
+- (ML) M282DSY0240 – Vina Maulida Junia 
+- (CC)  C287DSX0741 – Juan Angela Alma 
+- (CC)  C287DSX0883 – Yusril Isra Mahendra 
+- (MD) A360DKX4118 – Reynhard Powiwi 
+- (MD) A287DKX3849 – Rayyan Nur Fauzan 
+
+## 🌳 Aksi Hijau App
+Aksi Hijau App is an application designed to assist communities in conducting campaigns with a focus on tree planting. The app includes features such as soil analysis using Machine Learning 📊 and recommendations for suitable tree species 🌱 to plant. It is built using various technologies including Retrofit 🌐, SharedPreferences 🔐, ViewBinding 🔗, TensorFlow Lite 🧠, Material Components 💎, RecyclerView ♻️, and many more.
  
 # EDA & Data Preparation 
 

@@ -1,7 +1,23 @@
-# ML-Aksi-Hijau
+# Machine Learning Path - Classification Soil Type 
 
-Code ini berisikan tentang model machine learning dan klasifikasi jenis tanah yang ada di Indonesia dengan 6 kategori yakni Aluvial, Andosol, Mediteran, Organosol, Podsolik,dan Regosol.
+Team ID : C23-PS329
+M160DSX0257 - Irfan Divi Zianka
+M282DSY0240 - Vina Maulida Junia
+ 
+# EDA & Data Preparation 
 
-Dalam metode kali kami menggunakan model Transfer Learning MobileNetV2 dengan nilai akurasi sebesar 96% dan validasi akurasi 96%.
+Our dataset include 6 type of soil ( Aluvial, Andosol, Mediteran, Organosol, Podsolik, Regosol ) in Indonesia and total dataset is 570 images.
 
-Untuk integrasi dan deploy ke aplikasi, kami menggunakan library TensorFlow Lite dan melakukan import ke Android Studio untuk selanjutnya di proses oleh Tim Mobile Development
+# Data Processing 
+
+Our dataset separated with 2 folders ( train and validation ) , because our dataset is small, we use a technique called image augmentation to increase the accuracy of the model.
+
+# Machine Learning Model
+
+We use model MobileNetV2 for training data and create layer model ( keras layer and dense layer ) , and get accuracy > 96 % for soil classification type and save the model with keras model h5.
+
+# Model Deployment
+
+After model already, we use tensorflow lite to convert the model and ready deploy to Android Studio
+
+
